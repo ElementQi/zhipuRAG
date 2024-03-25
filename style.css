@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#file-container {
+    width: 50%; /* 或根据需要调整 */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 可选，增加一些阴影效果 */
+    text-align: center; /* 确保容器中的内容居中 */
+}
+
+#file-list {
+    text-align: left; /* 确保文件列表的文本对齐 */
+    display: inline-block; /* 让file-list作为块级元素对齐，但仍然保持在中间 */
+    text-align: left; /* 确保复选框和文件名对齐 */
+    margin: 0 auto; /* 在其容器中居中 */
+    padding-left: 0; /* 移除默认的内边距 */
+}
+
+#file-list label {
+    display: block; /* 每个标签占据一整行 */
+    margin: 5px 0; /* 添加一些垂直间距 */
+}
+
+#process-btn {
+    display: block; /* 确保按钮是块级元素 */
+    margin: 20px auto; /* 在容器中居中按钮 */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#process-btn:hover {
+    background-color: #0056b3;
+}
+
+
+#dialogue-container {
+    width: 60%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#dialogue-history {
+    height: 300px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#dialogue-input {
+    width: calc(100% - 90px);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#send-button {
+    width: 80px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #0056b3;
+}
